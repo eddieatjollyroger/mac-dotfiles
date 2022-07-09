@@ -51,23 +51,23 @@ alt + ctrl - return : osascript -e 'tell application "iTerm2" to create window w
  alt + ctrl + shift - space : yabai -m space --balance
 
  #alt + ctrl + shift - w : yabai -m space --destroy
- alt + ctrl + shift - a : yabai -m window --close
+ alt + ctrl + shift - z : yabai -m window --close
 
- alt + ctrl + shift - r : yabai -m window --resize left:-20:0 || yabai -m window --resize right:-20:0
- alt + ctrl + shift - g : yabai -m window --resize left:20:0 || yabai -m window --resize right:20:0
+ alt + ctrl - n : yabai -m window --resize left:-20:0 || yabai -m window --resize right:-20:0
+ alt + ctrl - o : yabai -m window --resize left:20:0 || yabai -m window --resize right:20:0
 
- alt + ctrl + shift - t : yabai -m window --resize top:0:-20 || yabai -m window --resize bottom:0:-20
- alt + ctrl + shift - s : yabai -m window --resize bottom:0:20 || yabai -m window --resize top:0:20
+ alt + ctrl - i : yabai -m window --resize top:0:-20 || yabai -m window --resize bottom:0:-20
+ alt + ctrl - e : yabai -m window --resize bottom:0:20 || yabai -m window --resize top:0:20
 
- alt + ctrl - n : yabai -m window --focus west
- alt + ctrl - e : yabai -m window --focus south
- alt + ctrl - i : yabai -m window --focus north
- alt + ctrl - o : yabai -m window --focus east
+ alt + ctrl - a : yabai -m window --focus west
+ alt + ctrl - r : yabai -m window --focus south
+ alt + ctrl - s : yabai -m window --focus north
+ alt + ctrl - t : yabai -m window --focus east
 
- alt + ctrl + shift - n : yabai -m window --swap west
- alt + ctrl + shift - e : yabai -m window --swap south
- alt + ctrl + shift - i : yabai -m window --swap north
- alt + ctrl + shift - o : yabai -m window --swap east
+ alt + ctrl + shift - a : yabai -m window --swap west
+ alt + ctrl + shift - r : yabai -m window --swap south
+ alt + ctrl + shift - s : yabai -m window --swap north
+ alt + ctrl + shift - t : yabai -m window --swap east
 
  alt + ctrl + shift - x : launchctl kickstart -k "gui/${UID}/homebrew.mxcl.yabai"
 
